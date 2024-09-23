@@ -1,0 +1,25 @@
+{
+  "name": "sistema-loja",
+  "version": "1.0.0",
+  "description": "Conceitos iniciais do Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardohirano/dw2project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardohirano/dw2project/issues"
+  },
+  "homepage": "https://github.com/ricardohirano/dw2project#readme"
+}
