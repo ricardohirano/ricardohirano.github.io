@@ -1,0 +1,30 @@
+<%- include('partials/navbar.ejs') %>
+<%- include('partials/header.ejs') %>
+
+<div class="container background-pedidos">
+    <div class="overlay">
+        <h1>Pedidos</h1>
+        
+        <h4>Tabela:</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Combos Promocionais</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% pedidos.forEach((pedido) => { %>
+                <tr>
+                    <td><%= pedido.numero %></td>
+                    <td><%= pedido.descricao %></td>
+                    <td>R$ <%= pedido.valor.toFixed(2).replace('.', ',') %></td>
+                </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<%- include('partials/footer.ejs') %>
