@@ -1,0 +1,57 @@
+* {
+  color: #ffffff; 
+}
+
+.background {
+  background-image: url('../imgs/fundo.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  position: relative;
+  color: #FFFFFF; 
+}
+
+.backgroundcliente {
+  background-image: url('../imgs/fundocliente.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  position: relative;
+  color: #FFFFFF; 
+}
+.background-produtos {
+  background-image: url('../imgs/fundoprodutos.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  position: relative;
+  color: #FFFFFF; 
+}
+.background-pedidos {
+  background-image: url('../imgs/fundopedidos.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ajuste a altura conforme necessário */
+  position: relative;
+  color: #FFFFFF; /* Ajuste a cor do texto conforme necessário */
+}
+.overlay {
+  position: absolute;
+  top: 20px; 
+  left:60%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-label {
+  color: #ffffff; 
+}
+
+.table th {
+  color: #000000; 
+}
